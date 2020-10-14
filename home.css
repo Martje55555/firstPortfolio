@@ -95,6 +95,25 @@ a:active {
     font-size: 115%;
 }
 
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
 #myMeow {
     transition-duration: .4s;
     font-size: 25px;

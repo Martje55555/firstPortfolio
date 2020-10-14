@@ -1,0 +1,9 @@
+html {
+    background-image: url("catsbackground.jpg");
+    background-repeat: inherit;
+}
+
+h1 {
+    font-size: larger;
+    color: black;
+}
