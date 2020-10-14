@@ -63,15 +63,14 @@ a:active {
 }
 
 .boxed{
-    align-items: center;
+    
     background-color: whitesmoke;
     padding: 10px;
     height: 450px;
     width: 350px;
     border: 10px solid black;
-    margin: 45px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 40%;
+   
 }
 #myExperience {
     font-size: 35px;
