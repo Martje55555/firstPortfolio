@@ -1,0 +1,107 @@
+html {
+    background-color: rgb(117, 14, 14);
+}
+
+#heading {
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 350%;
+}
+
+#myPic {
+    border: 5px black solid;
+    width: 325px;
+    height: 335px;
+    border-image-width: 55px;
+    
+}
+
+body {
+    text-align: center;
+}
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+#aboutMe {
+    transition-duration: 0.4s;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.aboutMe:hover {
+    background-color: red;
+    color: red;
+}
+
+#contactMe {
+    transition-duration: 0.4s;
+    font-size: 25px;
+}
+
+.contactMe:hover {
+    background-color: red;
+    color: red;
+}
+
+.boxed{
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 450px;
+    width: 350px;
+    border: 10px solid black;
+    margin: 45px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#myExperience {
+    font-size: 35px;
+    text-decoration: underline black;
+    
+   
+}
+
+
+.aboutMeDiv {
+    height: 20px;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-left: -8px;
+    border: 1px black;
+    width: 150%;
+    color: black;
+    background-color: black;
+}
+
+#myExperienceP{
+    font-size: 115%;
+}
+
+#myMeow {
+    transition-duration: .4s;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.myMeow:hover {
+    background-color: red;
+}
