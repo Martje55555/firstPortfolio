@@ -6,17 +6,20 @@ html {
     color: black;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 350%;
+    font-size: 455%;
 }
 
 #myPic {
     border: 5px black solid;
-    width: 325px;
-    height: 335px;
+    width: 355px;
+    height: 340px;
     border-image-width: 55px;
     
 }
-
+container div{
+    width: auto;
+    margin: auto auto;
+}
 body {
     text-align: center;
 }
@@ -43,7 +46,7 @@ a:active {
 
 #aboutMe {
     transition-duration: 0.4s;
-    font-size: 25px;
+    font-size: 30px;
     margin-right: 10px;
 }
 
@@ -54,7 +57,7 @@ a:active {
 
 #contactMe {
     transition-duration: 0.4s;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .contactMe:hover {
@@ -65,13 +68,13 @@ a:active {
 .boxed{
     background-color: whitesmoke;
     position: fixed;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 10px solid black;
 }
 #myExperience {
-    font-size: 35px;
+    font-size: 40px;
     text-decoration: underline black;
     
    
@@ -114,7 +117,7 @@ a:active {
 }
 #myMeow {
     transition-duration: .4s;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: underline;
 }
 
