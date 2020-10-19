@@ -10,16 +10,14 @@ html {
 }
 
 #myPic {
+    
     border: 5px black solid;
     width: 355px;
     height: 340px;
     border-image-width: 55px;
     
 }
-container div{
-    width: auto;
-    margin: auto auto;
-}
+
 body {
     text-align: center;
 }
@@ -67,27 +65,27 @@ a:active {
 
 .boxed{
     background-color: whitesmoke;
-    position: fixed;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 50%;
+    width: 50%;
+    top: auto;
+    margin-left: auto;
+    margin-right: auto;
     border: 10px solid black;
 }
 #myExperience {
     font-size: 40px;
     text-decoration: underline black;
-    
-   
 }
 
 
 .aboutMeDiv {
     height: 20px;
-    line-height: 25px;
-    margin-top: 30px;
-    margin-left: -8px;
+    line-height: 5px;
+    margin-top: 1.1%;
+    margin-left: -0.50%;
+    margin-right: -0.50%;
     border: 1px black;
-    width: 150%;
+    width: auto;
     color: black;
     background-color: black;
 }
@@ -124,3 +122,4 @@ a:active {
 .myMeow:hover {
     background-color: red;
 }
+
