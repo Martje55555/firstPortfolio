@@ -123,3 +123,13 @@ a:active {
     background-color: red;
 }
 
+#Projects {
+    transition-duration: .4s;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.Projects:hover {
+    background-color: red;
+}
+

@@ -55,6 +55,19 @@ html{
     font-size: 45px;
 }
 
+.emailP {
+    
+    border: 3px black solid;
+    width: 15%;
+    height: 15%;
+}
+
+#logo {
+    border: 3px black solid;
+    width: 15%;
+    height: 15%;
+}
+
 p{
     text-align: center;
     font-size: 35px;
