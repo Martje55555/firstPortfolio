@@ -10,12 +10,10 @@ html {
 }
 
 #myPic {
-    
     border: 5px black solid;
     width: 355px;
     height: 340px;
     border-image-width: 55px;
-    
 }
 
 body {
@@ -63,7 +61,7 @@ a:active {
     color: red;
 }
 
-.boxed{
+.boxed {
     background-color: whitesmoke;
     right: 50%;
     width: 50%;
@@ -71,12 +69,13 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     border: 10px solid black;
+    overflow: auto;
 }
+
 #myExperience {
     font-size: 40px;
     text-decoration: underline black;
 }
-
 
 .aboutMeDiv {
     height: 20px;
@@ -90,7 +89,7 @@ a:active {
     background-color: black;
 }
 
-#myExperienceP{
+#myExperienceP {
     font-size: 115%;
 }
 
@@ -113,6 +112,7 @@ a:active {
     color: black;
     text-decoration: underline;
 }
+
 #myMeow {
     transition-duration: .4s;
     font-size: 30px;
@@ -127,9 +127,32 @@ a:active {
     transition-duration: .4s;
     font-size: 30px;
     text-decoration: underline;
+    margin-right: 10px;
 }
 
 .Projects:hover {
     background-color: red;
 }
 
+.previous:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    font-size: 30px;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.next:hover{
+    background-color: #ddd;
+    color: black;
+}
+.next {
+    background-color: #4CAF50;
+    font-size: 30px;
+    display: inline-block;
+    padding: 8px 16px;
+}

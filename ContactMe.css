@@ -6,27 +6,27 @@ html{
     background-color: whitesmoke;
     float: center;
     width: auto;
-    max-width: 45%;
-    min-width: 22%;
+    max-width: 55%;
+    min-width: auto;
     margin-left: auto;
     margin-right: auto;
     border: 10px solid black;
+    overflow-wrap: anywhere;
 }
 
 .contact{
     text-align: center;
-    font-size: 525%;
+    font-size: 600%;
 }
 
 .box{
+
     background-color: whitesmoke;
     width: auto;
-    float: center;
-    height: auto;
-    margin-top: auto;
     margin-left: 15%;
     margin-right: 15%;
     border: 10px solid black;
+    overflow: auto;
 }
 
 .email{
@@ -36,17 +36,14 @@ html{
    
 }
 
-
-
 .column{
-    height: auto;
     float: center;
     background-color: whitesmoke;
     width: auto;
-    
     margin-left: 15%;
     margin-right: 15%;
     border: 10px solid black;
+    overflow: auto;
 }
 
 #LinkedIn{
@@ -72,3 +69,25 @@ p{
     text-align: center;
     font-size: 35px;
 }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
