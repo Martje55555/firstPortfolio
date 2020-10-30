@@ -3,6 +3,7 @@ html {
 }
 
 #heading {
+    margin-top: 0;
     color: black;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -12,7 +13,7 @@ html {
 #myPic {
     border: 5px black solid;
     width: 350px;
-    height: 350px;
+    height: 400px;
     border-image-width: 55px;
 }
 

@@ -2,17 +2,14 @@ html{
     background-color: rgb(117, 14, 14);
 }
 
-.boxed{
-    background-color: whitesmoke;
-    float: center;
-    width: auto;
-    max-width: 55%;
-    min-width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border: 10px solid black;
-    overflow-wrap: anywhere;
+#heading {
+    margin-top: 0;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 555%;
 }
+
 
 .contact{
     text-align: center;
@@ -20,7 +17,7 @@ html{
 }
 
 .box{
-
+    margin-top: -2.5%;
     background-color: whitesmoke;
     width: auto;
     margin-left: 15%;
