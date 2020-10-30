@@ -1,3 +1,56 @@
 html {
     background-color: rgb(117, 14, 14);
 }
+
+h1 {
+    text-emphasis: bold;
+    font-size: 400%;
+}
+
+.aboutHomeMe {
+    float: center;
+    background-color: whitesmoke;
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 10px solid black;
+    overflow: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+.devPost{
+    transition-duration: 0.4s;
+    font-size: 22px;
+}
+
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+.devPost:hover {
+    background-color: red;
+    color: red;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    font-size: 30px;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.next {
+    background-color: #4CAF50;
+    font-size: 30px;
+    display: inline-block;
+    padding: 8px 16px;
+}
