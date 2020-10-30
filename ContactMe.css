@@ -84,10 +84,12 @@ a {
   .previous {
     background-color: #f1f1f1;
     color: black;
+    font-size: 20px;
   }
   
   .next {
+    font-size: 20px;
     background-color: #4CAF50;
-    color: white;
+    color: black;
   }
   
