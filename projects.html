@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <title>My Projects</title>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="projects.css">
 </head>
 
 
-    <body>
-        <container div>
+<body>
+    <container div>
         <center>
             <h1 class="heading" id="heading">My Projects</h1>
         </center>
-            <div>
-                <center><embed src="HomeMeSlides.pdf#&toolbar=0" width="800px" height="450px">
-                    <br>
-                    Dowload powerpoint here: <a href="HomeMeSlides.pdf" style="color: black;">CLICK ME</a>
-                </center>
-            </div>
+        </br>
+        <div class="container-fluid">
+            <center><embed src="HomeMeSlides.pdf#&toolbar=0" width="800px" height="450px">
+                <br>
+                Dowload powerpoint here: <a href="HomeMeSlides.pdf" style="color: black;">CLICK ME</a>
+            </center>
             <center>
                 <div class="aboutHomeMe" id="aboutHomeMe">
                     <p>HomeMe was created as a project for HackTX 2020 Hackathon (won 2nd place), for the
@@ -33,62 +37,71 @@
                         to get done and have it out for anyone who might find use for it.
                     </p>
                 </div>
-                <hr style="height:20px; visibility: hidden;">
+                
+            </br>
 
-                <button class="devPost" id="devPost"><a
-                        href="https://devpost.com/software/homeme-u92h18" target="_blank">
+                <button class="devPost" id="devPost"><a href="https://devpost.com/software/homeme-u92h18"
+                        target="_blank">
                         DevPost</a></button>
-                <button class="devPost" id="devPost"><a 
-                        href="https://github.com/Martje55555/HomeMeUpdated" target="_blank">
+                <button class="devPost" id="devPost"><a href="https://github.com/Martje55555/HomeMeUpdated"
+                        target="_blank">
                         Github link</a></button>
             </center>
-            <br>
+        </div>
+        <br>
         </br>
+    </br>
 
-            <div>
-                <center><embed src="Hangman.pdf#&toolbar=0" width="800px" height="450px">
-                    <br>
-                    Dowload powerpoint here: <a href="Hangman.pdf" style="color: black;">CLICK ME</a>
-                </center>
+        <div class="container-fluid">
+            <center>
+                <embed src="Hangman.pdf#&toolbar=0" width="800px" height="450px">
+                <br>
+                Dowload powerpoint here: <a href="Hangman.pdf" style="color: black;">CLICK ME</a>
+            </center>
+        </hr>
+        <center>
+            <div class="aboutHomeMe" id="aboutHomeMe">
+                <p>
+                    Simple Hangman Web App deployed with
+                    Heroku, and written using Ruby
+                    and Sinatra Framework. Start a new game by
+                    clicking on the new game button, and start
+                    guessing! Lower or upper case letters are
+                    accepted, anything else is considered invalid.
+                    If multiple letters are entered, it will only
+                    accept the first letter. You have 7 wrong attempts
+                    until you lose! Goodluck! :)
+                </p>
             </div>
-
-            <center>
-                <div class="aboutHomeMe" id="aboutHomeMe">
-                    <p>
-                        Simple Hangman Web App deployed with
-                        Heroku, and written using Ruby 
-                        and Sinatra Framework. Start a new game by
-                        clicking on the new game button, and start 
-                        guessing! Lower or upper case letters are 
-                        accepted, anything else is considered invalid.
-                         If multiple letters are entered, it will only
-                         accept the first letter. You have 7 wrong attempts
-                         until you lose! Goodluck! :)
-                    </p>
-                </div>
-                <hr style="height:20px; visibility: hidden;">
-
-                <button class="devPost" id="devPost"><a
-                        href="https://hangman-jem.herokuapp.com/home" target="_blank">
-                        Play Here!</a></button>
-                
-            </center>
-            <hr class="aboutMeDiv">
         </br>
-            <center>
-                <h1>More on the Way!</h1>
-            </center>
+            <button class="devPost" id="devPost"><a href="https://hangman-jem.herokuapp.com/home" target="_blank">
+                    Play Here!</a></button>
 
-            <hr style="height:20px; visibility: hidden;">
-            <hr style="height:20px; visibility: hidden;">
-            <center>
-                <a href="javascript:history.back()" class="previous" style="text-decoration: none;">&laquo; Go
-                    Back</a>
-                <a href="javascript:history.forward()" class="next style= text-decoration: none;">Next
-                    &raquo;</a>
-            </center>
+        </center>
+        </div>
+        </br>
+    </br>
+        <center>
+            <h2>More on the Way!</h2>
+        </center>
 
-        </container>
-    </body>
+        <hr style="height:20px; visibility: hidden;">
+        
+        <center>
+            <a href="javascript:history.back()" class="previous" style="text-decoration: none;">&laquo; Go
+                Back</a>
+            <a href="javascript:history.forward()" class="next style= text-decoration: none;">Next
+                &raquo;</a>
+        </center>
+        
+    </br>
+
+    </container>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
